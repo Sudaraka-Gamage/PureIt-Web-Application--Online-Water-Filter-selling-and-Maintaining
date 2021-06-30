@@ -1,0 +1,75 @@
+
+
+/*----------------add technicians---------------------------*/
+#new_user_form{
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#new_user_table{
+    width: 100%;
+    border-spacing: 10px; 
+}
+
+#list,#first_name,#last_name,#phone_no,#nic,#email,
+#birth_day,#EpList,#pass,#con-pass,#emp-id,#address{
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 6px;
+    border-style: none;
+    border:solid rgb(38, 38, 38);
+    border-color: rgb(38, 38, 38);
+}
+div.logo img{
+    width: 240px;
+    height:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#add_btn{
+   background-color: rgb(2, 75, 85);
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border-style: none;  
+}
+
+/*-------------------------nav------------------------------------*/
+
+nav{
+    background-color: rgb(85, 83, 83);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    margin-right: 6px;
+}
+nav ul {
+    padding-top: 5px;
+    display: inline-block;
+    color: white;
+    padding-left: 7%;
+    background-color: rgb(85, 83, 83);
+    font-family: Monospace;    
+    font-size: 20px;
+}
+
+
+
+/*-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+

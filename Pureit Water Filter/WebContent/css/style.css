@@ -1,0 +1,433 @@
+/* #########################_body_##########################*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+.title1{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.title2{
+    font-size: 17px;
+    color: #c0312a;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content_area{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+/* ##########################################################*/
+
+
+
+/* #########################_header_##########################*/
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+.header_inner_area_home{
+    width: 980px;
+    height: 550px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.header_image_home{
+    width: 980px;
+    height: 550px;
+    background-image: url("../imgs/header.jpg");
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.header_inner_area_other{
+    width: 980px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+}
+
+.header_image_other{
+    width: auto;
+    height: auto;
+    color: #344c59;
+    font-family: Raleway;
+    font-size: 100px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    position: absolute;
+    
+}
+
+.h_top{
+    width: 980px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.logo{
+    width: 162px;
+    height: 110px;
+    float: left;
+    background-image: url("../imgs/logo.png");
+    margin-top: 26px;
+}
+
+.navi{
+    width: auto;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+.navi_p2{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 55px;
+}
+
+.h_welcome{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 340px;
+}
+
+.search_home{
+    float: right;
+    width: auto;
+    height:auto;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    padding-right: 18px;
+}
+
+.search_other{
+    float: right;
+    width: auto;
+    height:auto;
+    padding-top: 100px;
+    padding-right: 18px;
+}
+
+/* ##########################################################*/
+
+
+
+/* #########################_content_##########################*/
+.content{
+    width: 980px;
+    height: auto;
+    background-color: #eaeaea;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: avenir-roman;
+}
+
+.inner_content_1{
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    background-color: #eaeaea;
+    color: #002633;
+    float: left;
+}
+
+.inner_content_2{
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaeaea;
+    float: left;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content_box1{
+    width: 250px;
+    height: 110px;
+    border: 1px solid #d2cece;
+    border-radius: 5px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* ##########################################################*/
+
+
+
+/* #########################_footer_##########################*/
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #142225;
+    float: left;
+    font-family: Raleway;
+}
+
+.footer_inner_area{
+    width: 980px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_row{
+    width: 980px;
+    height: auto;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.footer_column{
+    width: auto;
+    height: auto;
+    color: #86a5ac;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.r1_c{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.r2_c{
+    width: auto;
+    height: auto;
+    color: #86a5ac;
+    font-size: 13px;
+    margin-left: 435px;
+    text-align: center;
+    float: left;
+    padding-bottom: 5px;
+}
+
+/* ##########################################################*/
+
+
+
+/* #########################_buttons_##########################*/
+
+/* ---------------navigator buttons---------------*/
+.navi_button {
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: midnightblue;
+    padding: 8px 10px;
+    margin-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: avenir-book;
+}
+
+.navi_button:hover {
+    background: transparent;
+    border: 1px solid midnightblue;
+    color: midnightblue;
+    border-radius: 5px;
+}
+
+/* -----------------------------------------------*/
+
+/* ---------------header buttons---------------*/
+.header_button {
+    background: transparent;
+    border: 1px solid #c0312a;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Raleway;
+}
+
+.header_button:hover {
+    background-color: #c0312a;
+    color: white;
+}
+/* -----------------------------------------------*/
+
+/* ---------------form button 1---------------*/
+.form_button {
+    background-color: #404040;
+    border: 1px solid #404040;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Raleway;
+}
+
+.form_button:hover {
+    background-color: transparent;
+    color: #404040;
+    font-weight: bold;
+}
+
+/* -----------------------------------------------*/
+
+/* ##########################################################*/
+
+
+/* #########################_fonts_##########################*/
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url('../fonts/AvenirLTStd-Roman.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "avenir-book";
+    src: url('../fonts/AvenirLTStd-Book.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-ExtraLight.ttf') format("truetype");
+}
+
+/* ##########################################################*/
+
+
+
+/* #########################_contact_us_page_##########################*/
+
+.contact_details_box_wrapper{
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-top: 40px;
+}
+
+.contact_details_box1{
+    width: 50%;
+    height: 400px;
+    background-color: #282828;
+    float: left;
+}
+
+.contact_details_box2{
+    width: 50%;
+    height: 400px;
+    background-color: #282828;
+    float: left;
+    color: #999;
+    font-size: 15px;
+    font-family: Raleway;
+    padding-top: 30px;
+}
+
+/* ####################################################################*/
+
+
+
+/* #########################_forms_##########################*/
+
+.input_search{
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid midnightblue;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    padding: 8px 20px 8px;
+    background-color: transparent;
+    background-image: url('../imgs/search.png');
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+    transition: opacity .4s ease;
+}
+
+.input_search:focus {
+    width: 100%;
+    opacity: 1;
+    color: cornflowerblue;
+    font-family: avenir-book;
+}
+
+.input_style1{
+    width: 300px;
+    border: 1px solid #282828;
+    border-radius: 1px;
+    font-size: 14px;
+    color: #282828;
+    opacity: 1;
+    padding: 12px 20px 12px;
+    background-color: transparent;
+    font-family: avenir-book;
+    margin-bottom: 20px;
+}
+
+.input_style1:focus {
+    opacity: 1;
+}
+
+
+/* ##############################################################*/
+
+
+/* #########################_Messages_############################*/
+
+.message_error{
+    font-family: Raleway;
+    font-size: 14px;
+    color: #dd1e31;
+    font-weight: bold;
+}
+
+
+/* ##############################################################*/
